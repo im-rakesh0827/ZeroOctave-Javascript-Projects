@@ -10,26 +10,23 @@
 </head>
 
 <body>
-  <div class="allContent">
-    <h1 class="title">Login Form</h1>
-    <div class="Logincard">
-      <h1 class="formtitle">Login Your Account</h1>
-      <hr>
-      <form action="">
-        <span><label for="text">Username</label>
-          <input type="text" class="name" placeholder="Username"/>
-        </span>
-        <span>
-          <label for="password">Password</label>
-          <input type="password" class="password"  placeholder="Password"/>
-        </span>
-        <button class="submitBtn">Login</button>
+  <div class="main">
+    <div class="register">
+      <br><br>
+      <h2>User Login</h2>
+      <form id="register" method="post" action="#">
+        <label for="">Email : </label>
+        <br>
+        <input type="email" name="email" id="name" placeholder="Enter Valid Email">
+        <br><br>
+        <label for="">Passwrod : </label>
+        <br>
+        <input type="password" name="password" id="name" placeholder="Enter Valid Passwrod">
+        <br><br>
+        <input type="submit" value="Login" name="submit" id="submit">
+        <a href="registerUser.html"><input value="Register" name="register" id="submit"></a>
+        <a href="forgotPassword.html"><input value="Forgot" name="reset" id="submit"></a>
       </form>
-      <hr>
-      <div class="bottom">
-        <p>Don't have an account?<a href="">click here</a> | </p>
-        <a href="forget" class="pass">Forgot Password?</a>
-      </div>
     </div>
   </div>
 </body>
